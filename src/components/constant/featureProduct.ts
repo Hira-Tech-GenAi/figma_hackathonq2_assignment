@@ -1,0 +1,60 @@
+export  interface Feat_data {
+    badge: boolean,
+    badgeText: string,
+    badgeColor: string,
+    src: string,
+    heading: string,
+    newPrice: number,
+    oldPrice_h2: boolean,
+    oldPrice: number,
+    shopBg: string,
+}
+
+
+
+export const featureProduct_Data: Feat_data[] = [
+    {
+        badge: true,
+        badgeText: "New",
+        badgeColor: `bg-green`,
+        src: "/products/product1.png",
+        heading: "Library Stool Chair",
+        newPrice: 20,
+        oldPrice_h2: false,
+        oldPrice: 30,
+        shopBg: `bg-gray`,
+    },
+    {
+        badge: true,
+        badgeText: "sales",
+        badgeColor: `bg-orange`,
+        src: "/products/product2.png",
+        heading: "Library Stool Chair",
+        newPrice: 20,
+        oldPrice_h2: true,
+        oldPrice: 30,
+        shopBg: `bg-gray`,
+    },
+    {
+        badge: false,
+        badgeText: "New",
+        badgeColor: "green",
+        src: "/products/product3.png",
+        heading: "Library Stool Chair",
+        newPrice: 20,
+        oldPrice_h2: false,
+        oldPrice: 30,
+        shopBg: `bg-gray`,
+    },
+    {
+        badge: false,
+        badgeText: "New",
+        badgeColor: "green",
+        src: "/products/product4.png",
+        heading: "Library Stool Chair",
+        newPrice: 20,
+        oldPrice_h2: false,
+        oldPrice: 30,
+        shopBg: `bg-gray`,
+    },
+]
