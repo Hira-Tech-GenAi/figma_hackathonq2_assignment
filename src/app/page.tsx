@@ -1,4 +1,4 @@
-import Category from "@/components/category";
+import Category from "@/components/Category";
 import Hero from "@/components/hero";
 import LogoFeature from "@/components/logoFeature";
 import OurProduct from "@/components/ourProduct";

@@ -100,22 +100,22 @@ function Header() {
                 </Link>
               </li>
               <li className="text-[#636270] text-[14px] font-inter font-medium">
-                <Link href="/shop" className="hover:text-[#007580]">
+                <Link href="/shopy" className="hover:text-[#007580]">
                   Shop
                 </Link>
               </li>
               <li className="text-[#636270] text-[14px] font-inter font-medium">
-                <Link href="/product" className="hover:text-[#007580]">
+                <Link href="/products" className="hover:text-[#007580]">
                   Product
                 </Link>
               </li>
               <li className="text-[#636270] text-[14px] font-inter font-medium">
-                <Link href="/pages" className="hover:text-[#007580]">
+                <Link href="/pagesRoute" className="hover:text-[#007580]">
                   Pages
                 </Link>
               </li>
               <li className="text-[#636270] text-[14px] font-inter font-medium">
-                <Link href="/about" className="hover:text-[#007580]">
+                <Link href="/about-us" className="hover:text-[#007580]">
                   About
                 </Link>
               </li>
